@@ -13,7 +13,7 @@ jobs:
         
       - name: Instalando o Java JDK no Servidor
         uses: actions/setup-java@v4
-        whit: 
+        with: 
           java-version: '17'
           distribution: 'temurin'
       - name: Compilando Sistema
